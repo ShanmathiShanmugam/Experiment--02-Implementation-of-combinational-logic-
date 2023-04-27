@@ -36,11 +36,10 @@ F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
 
 ### Program:
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-Developed by: KOTHAI K 
-RegisterNumber: 22006043
+Developed by: S.SHANMATHI 
+RegisterNumber: 212222100049
 */
-
-python
+```
 module logic(a,b,c,d,w,x,y,z,f1,f2);
 input a,b,c,d,w,x,y,z;
 output f1,f2;
@@ -58,7 +57,7 @@ assign B5=(w&x&y);
 assign f1=A1|A2|A3|A4|A5;
 assign f2=B1|B2|B3|B4|B5;
 endmodule
-
+```
 
 
 
